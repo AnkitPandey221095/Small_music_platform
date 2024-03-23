@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    background-color: rgb(119, 255, 61);
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+    height: 10vh;
+    list-style-type: none;
+    position:sticky;
+
+}
+.nav .brand{
+ border-radius: 50%;
+ width: 40px;
+}
+.nav .BrandName{
+    font-size:25px;
+    font-weight: 600;
+    color: aliceblue;
+    margin: 20px;
+}
+.nav li a{
+    text-decoration:none;
+    font-size: medium;
+    margin: 15px;
+    color: aliceblue;
+
+}
+.nav li a:hover{
+    color: rgb(157, 187, 214);
+}
+main{
+    height:75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(119, 255, 61);
+}
+.container{
+    width:70%;
+    height: 70vh;
+    border-radius: 15px;
+    background-image: url(img/download.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.songItem{
+    display: flex;
+    align-items: center;
+    background-color: rgb(162, 250, 154);
+    width:300px;
+    height: 50px;
+    justify-content: space-around;
+    border-radius: 30px;
+    margin: 5px;
+    margin-left:10px;
+}
+.songItem:hover{
+    transform: scale(.9);
+    box-shadow: 0 0 10px rgb(1, 1, 1);
+    background-color: rgb(113, 241, 101);
+}
+.songItem .songThumbnail{
+    width:35px ;
+    height: 35px;
+    border-radius: 50%;
+}
+.songItem .songstate{
+    width:20px ;
+}
+
+
+.footer{
+    height: 15vh;
+    background-color: white;
+}
+.footer .songupdates{
+    display: block;
+    width:95vw;
+    margin:auto;
+}
+
+
+.icon{
+    display: flex;
+    list-style-type: none;
+    align-items:center;
+    justify-content:center;
+}
+.function_btn{
+height: 50px;
+width:50px;
+}
+.icon img{
+    
+    width: 30px;
+    margin:10px;
+}
